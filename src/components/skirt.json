@@ -1,0 +1,131 @@
+ [{
+         "id": 1,
+         "name": "Floral Mini Skirt",
+         "price": "1119",
+         "discountedPrice": 1599,
+         "discountPercentage": 30,
+         "img": "https://media.istockphoto.com/id/882157056/photo/red-elegant-skirt-with-ribbon-bow-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=AUVtYb1z1CzmHH9mGRiVt4fImNLcb3gzhPqqtbOQxBA=",
+         "Rating": "4",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 2,
+         "name": "short Mini Skirt",
+         "price": "659",
+         "discountedPrice": 1099,
+         "discountPercentage": 30,
+         "img": "https://images.unsplash.com/photo-1590626448480-04a69cb0dbf6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdpcmwlMjBpbiUyMHNraXJ0fGVufDB8fDB8fHww",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+     {
+         "id": 3,
+         "name": "Floral Mini Skirt",
+         "price": "1119",
+         "discountedPrice": 1599,
+         "discountPercentage": 30,
+         "img": "https://t4.ftcdn.net/jpg/00/62/74/61/360_F_62746138_VwhTKNcSurb3hLRmHy3TkoYPpka58vFT.jpg",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 4,
+         "name": "Floral Mini Skirt",
+         "price": "719",
+         "discountedPrice": 1799,
+         "discountPercentage": 30,
+         "img": "https://www.shutterstock.com/image-photo/black-white-skirt-isolated-on-260nw-688383463.jpg",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 5,
+         "name": "Floral Mini Skirt",
+         "price": "1079",
+         "discountedPrice": 1799,
+         "discountPercentage": 30,
+         "img": "https://media.istockphoto.com/id/509995950/photo/woman-wearing-nude-colored-high-heel-shoes.jpg?b=1&s=612x612&w=0&k=20&c=HSzOW0vHziUsFaeacI0oDHwhs54noisGRFflO71TIB8=",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 6,
+         "name": "Floral Mini Skirt",
+         "price": "639",
+         "discountedPrice": 1599,
+         "discountPercentage": 30,
+         "img": "https://images.unsplash.com/photo-1603205319065-6ffbe8f0e5af?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpcnR8ZW58MHx8MHx8fDA%3D",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 7,
+         "name": "Floral Mini Skirt",
+         "price": "1119",
+         "discountedPrice": 1599,
+         "discountPercentage": 30,
+         "img": "https://w0.peakpx.com/wallpaper/277/841/HD-wallpaper-asian-legs-brown-hair-cute-cute-smile-girl-mini-skirt-outdoor-pretty-skirt-thumbnail.jpg",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 8,
+         "name": "Floral Mini Skirt",
+         "price": "1119",
+         "discountedPrice": 1599,
+         "discountPercentage": 30,
+         "img": "https://images.unsplash.com/photo-1615898290837-e9e8cdc3a7fc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNraXJ0fGVufDB8fDB8fHww",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 9,
+         "name": "Floral Mini Skirt",
+         "price": "1119",
+         "discountedPrice": 1599,
+         "discountPercentage": 30,
+         "img": "https://c4.wallpaperflare.com/wallpaper/16/624/953/brooke-ftv-girls-magazine-model-women-wallpaper-preview.jpg",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 10,
+         "name": "Floral Mini Skirt",
+         "price": "719",
+         "discountedPrice": 1599,
+         "discountPercentage": 30,
+         "img": "https://w0.peakpx.com/wallpaper/619/489/HD-wallpaper-cute-asian-brown-hair-girl-legs-mini-skirt-nice-pink-pretty-short-skirt-thumbnail.jpg",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 11,
+         "name": "Floral Mini Skirt",
+         "price": "1079",
+         "discountedPrice": 1799,
+         "discountPercentage": 30,
+         "img": "https://e0.pxfuel.com/wallpapers/40/394/desktop-wallpaper-blonde-in-a-summer-skirt-skirt-outdoors-model-blonde-thumbnail.jpg",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     },
+
+     {
+         "id": 12,
+         "name": "Floral Mini Skirt",
+         "price": "1749",
+         "discountedPrice": 2499,
+         "discountPercentage": 30,
+         "img": "https://w0.peakpx.com/wallpaper/787/577/HD-wallpaper-julia-burch-brunette-looking-at-viewer-outdoors-women-outdoors-skirt-women-school-skirt-school-uniform-thumbnail.jpg",
+         "Rating": "5",
+         "description": "Floral Print Womens Skirts - Buy Floral Print Womens Skirts at India's Best ... Women Floral Print Flared Blue Skirt. 1,799. ₹665. 63% off. Shae by SASSAFRAS."
+     }
+ ]

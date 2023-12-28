@@ -1,38 +1,226 @@
-.App {
-  text-align: center;
+.container {
+    background-color: yellow;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-top: 4px;
+    margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 23%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 33px;
+    border-radius: 14px;
+}
+
+.flex-container p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 9.1px;
+    float: left;
+    padding-left: 16px;
+}
+
+span {
+    color: red;
+}
+
+.comerceimg {
+    width: 100%;
+    height: 300px;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.productinfo {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.productimg {
+    width: 50%;
+    height: 500px;
+    display: flex;
+}
+
+.productlayout {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.productitle {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produtprice {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.productpara {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.main{
+    float: left;
+    padding-left: 20px;
+}
+.cartmain{
+    width: 100%;
+    height:800px;
+   
+    background-color: lightblue;
+  
+   margin-top: 30px;
+   float: left;
+}
+.cart{
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    padding-left: 6%;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    margin-left: 15%;
+    width: 73%;
+    height: 600px;
+    margin-top: 18px;
+   
+    
+}
+/* .cartimg{
+    width: 31%;
+    height: 100px;
+    justify-content: center;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.cartimg img{
+    width:38%;
+} */
+/* .carttitle{
+    width: 31%;
+    height: 200px;
+   font-weight: 700;
+    margin-left: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.cartprice{
+    width: 100px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    
+} */
+
+.flex-containers {
+    display: flex;
+    justify-content: flex-start;
+   flex-direction: column;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .flex-containers > div {
+    width: 315px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+   flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+  .cartimg img{
+    width: 38%;
   }
+  .carttitle{
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    flex-direction: column;
+  }
+.carticon{
+    float: right;
+    margin-right: 10%;
+}
+.cartprice{
+    color: #000;
+    flex-direction: column;
+    
+}
+.total{
+    color: #000;
+    margin-left: 43%;
+    font-size: 20px;
+    border-top: 1px solid #aaa;
+    padding-top: 10px;
+    width: 55%;
+    display: flex;
+   
+}
+.cost{
+    margin-left: 82%;
+    margin-top: -23px;
+}
+.skirtname{
+    width: 42%;
+    height: 50px;
+    padding-top: 20px;
+}
+.btnskirt{
+    margin-top: -17px;
+    margin-bottom: 20px;
+    margin-right: -13%;
+}
+.skirtsearch{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 4px;
+    width: 19%;
+    height: 40px;
+    border-radius: 12px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.detailimg{
+    width: 60%;
+}
+.productitem{
+    width: 14%;
+    height: 400px;
+    float: left;
+    display: flex;
+    display: table-column;
+    margin-left: 20px;
+}
+.productitem li{
+    list-style: none;
 }
