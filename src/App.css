@@ -112,7 +112,7 @@ span {
    
     
 }
-/* .cartimg{
+ /* .cartimg{
     width: 31%;
     height: 100px;
     justify-content: center;
@@ -120,7 +120,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-}
+} */
 .cartimg img{
     width:38%;
 } */
@@ -149,14 +149,16 @@ span {
     display: flex;
     justify-content: flex-start;
    flex-direction: column;
+   display: table-row;
   }
   
   .flex-containers > div {
     width: 315px;
     margin: 10px;
-    text-align: center;
+    justify-content: center;
     line-height: 75px;
    flex-direction: row;
+   float: left;
   }
   .cartimg img{
     width: 38%;
@@ -166,6 +168,7 @@ span {
     color: #000;
     font-weight: 700;
     flex-direction: column;
+    display: table-row;
   }
 .carticon{
     float: right;
@@ -178,16 +181,16 @@ span {
 }
 .total{
     color: #000;
-    margin-left: 43%;
+    margin-left: 34%;
     font-size: 20px;
     border-top: 1px solid #aaa;
     padding-top: 10px;
-    width: 55%;
+    width: 61%;
     display: flex;
    
 }
 .cost{
-    margin-left: 82%;
+    margin-left: 67%;
     margin-top: -23px;
 }
 .skirtname{

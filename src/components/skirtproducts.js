@@ -8,7 +8,6 @@ import "../App.css";
 const Fashion = () => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
-  
   const [apiData, setApiData] = useState([]);
 
   const fetchDataFromApi = async () => {

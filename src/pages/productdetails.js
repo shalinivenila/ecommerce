@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { json, useParams } from "react-router-dom";
 import skirtData from "../components/skirt.json";
 import "../App.css";
 
@@ -40,7 +40,7 @@ const ProductDetails = () => {
   if (!filteredProduct) {
   return <div> Product not found </div>;
   }
-
+console.log(filteredProduct);
 
   const imageArray = [
    "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjBwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -53,6 +53,18 @@ const ProductDetails = () => {
   const handleImageClick = (image) => {
     setSelectedImage(image);
   };
+
+  const sendCart = () => {
+    const setString = JSON.stringify(filteredProduct);
+  
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem("setItem", setString);
+    } else {
+      console.error("localStorage is not available in this environment.");
+    }
+  }
+
+
 
   return (
   <div>
@@ -80,7 +92,7 @@ const ProductDetails = () => {
       {" "}{filteredProduct.description}
       {" "}
       </div>
-      <button> Add to Cart </button>{" "}
+      <button onClick={sendCart}> Add to Cart </button>{" "}
         </div>{" "}
       </div>
     </div>
