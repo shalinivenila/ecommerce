@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { json, useParams } from "react-router-dom";
 import skirtData from "../components/skirt.json";
+import { Button } from "@mui/material";
 import "../App.css";
 
 const ProductDetails = () => {
@@ -92,7 +93,7 @@ console.log(filteredProduct);
       {" "}{filteredProduct.description}
       {" "}
       </div>
-      <button onClick={sendCart}> Add to Cart </button>{" "}
+      <Button variant="contained" onClick={sendCart}> Add to Cart </Button>{" "}
         </div>{" "}
       </div>
     </div>

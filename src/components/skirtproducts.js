@@ -3,6 +3,8 @@ import skirtData from "./skirt.json";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import {Localstorage} from "react";
+import { Button, CardActions, CardContent, Typography } from "@mui/material";
+import {CardMedia} from "@mui/material";
 import "../App.css";
 
 const Fashion = () => {
@@ -46,6 +48,7 @@ const SkirtItem = (skirt) =>{
 
 
   return (
+    
     <div>
       <input className="skirtsearch"
         placeholder="Search Skirts"
@@ -58,17 +61,19 @@ const SkirtItem = (skirt) =>{
         {filteredSkirts?.map((skirt) => {
       
           return(
-
+           
             <div key={skirt.id}>
-            <img onClick={() => SkirtProduct(skirt.id)} className="comerceimg" src={skirt.images[0]} alt={skirt.brand} />{" "}
-            <div className="skirtname">{skirt.brand}</div>
-            <p>
+               <CardMedia sx={{ height: 140 }} onClick={() => SkirtProduct(skirt.id)} className="comerceimg" image={skirt.images[0]} alt={skirt.brand} />{" "}
+               <CardContent>
+            <Typography gutterBottom variant="h5" component="div" className="skirtname">{skirt.brand}</Typography>
+            <Typography variant="body2" color="text.secondary">
               $ {skirt.price} <del> $ {skirt.discountedPrice} </del>{" "}
               <span> ({skirt.discountPercentage} % Off) </span>{" "}
-            </p>{" "}
-             
-            <button className="btnskirt" onClick={() => AddCart(skirt) } > Add to cart </button>{" "}
-      
+            </Typography>{" "}
+             <CardActions>
+            <Button className="btnskirt" style={{marginTop:"38px",marginLeft:"-90%"}} variant="contained" onClick={() => AddCart(skirt) } > Add to cart </Button>{" "}
+            </CardActions>
+            </CardContent>
           </div>
       
         )})
@@ -76,6 +81,7 @@ const SkirtItem = (skirt) =>{
       </div>
          
     </div>
+    
   )  };  
         
            

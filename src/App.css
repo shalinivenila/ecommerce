@@ -174,6 +174,12 @@ span {
     float: right;
     margin-right: 10%;
 }
+.cartlogout{
+    float: right;
+    margin-right: -8%;
+    margin-top: 7px;
+    padding: 5px 14px 4px 8px
+}
 .cartprice{
     color: #000;
     flex-direction: column;
@@ -212,6 +218,8 @@ span {
     border-radius: 12px;
     padding-left: 15px;
     font-size: 18px;
+    margin-top: 15px;
+
 }
 .detailimg{
     width: 60%;
@@ -227,3 +235,5 @@ span {
 .productitem li{
     list-style: none;
 }
+
+
