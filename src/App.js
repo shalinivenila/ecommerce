@@ -8,6 +8,8 @@ import Cart from "./pages/cart";
 import Counter from "./component/counter";
 import Login from "./pages/login";
 import { useEffect } from "react";
+import Reducer from "./pages/reducer";
+
 
 
 const App =() =>{
@@ -23,12 +25,13 @@ useEffect(() => {
     console.log("User is not logged in");
     navigate("/login");
   }
-}, []);
+}, [navigate]);
 
 
   return (
     <div>
       <Header />
+    
       <Routes>
         <Route path="/" element={<Fashion />} />{" "}
         <Route path="/productdetails/:id" element={<ProductDetails />} />{" "}
@@ -36,6 +39,7 @@ useEffect(() => {
         <Route path="/registration" element={<Registration />} />
         <Route path="/login" element={<Login />} />
         <Route path="/counter" element={<Counter/>} />
+     <Route path="/reducer" element={<Reducer />}/>
       </Routes>
     </div>
   );
